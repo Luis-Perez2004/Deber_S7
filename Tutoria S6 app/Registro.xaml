@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tutoria_S6_app.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Aquamarine">
+                <Label Text="REGISTRO" HorizontalTextAlignment="Center" BackgroundColor="Aquamarine"/>
+            </Frame>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre"/>
+            <Entry x:Name="txtusuario" Placeholder="Ingrese el usuario"/>
+            <Entry x:Name="txtContrasenia" Placeholder="Ingrese su contrasenia" IsPassword="True"/>
+
+            <Button x:Name="btnAgregar" Text="Agregar" Clicked="btnAgregar_Clicked" BackgroundColor="DarkCyan"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
