@@ -17,6 +17,7 @@
             <Entry x:Name="Contrasenia" Placeholder="Contrasenia"/>
             <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="DarkCyan"/>
             <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" BackgroundColor="DarkCyan"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
